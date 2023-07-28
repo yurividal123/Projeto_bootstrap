@@ -1,0 +1,111 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>exercicio_modulo13</title>
+        <link rel="stylesheet" href="./Lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    </head>
+    <style>
+
+        body {
+            background-color: rgb(34, 34, 68);
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            color: aliceblue;
+        }
+
+            @media (max-width: 991.98px) {
+        .margin-top-responsivo {
+            margin-top: 20px;
+        }
+    }
+    @media (max-width: 761px) {
+        .margin-top-responsivo2 {
+            margin-top: 20px;
+        }
+    }
+
+    img {
+        height: 600px;
+        object-fit: cover;
+    }
+    </style>
+    <body>
+        <header>
+            <h1>Projeto Modulo 13</h1>
+        </header>
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./img/action-1867052_1280.jpg">
+                        <div class="carousel-caption">
+                            <h2>Surf</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./img/blue-4145659_1280 (1).jpg">
+                        <div class="carousel-caption">
+                            <h2>Surf</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./img/wave-1913559_1280 (1).jpg">
+                        <div class="carousel-caption">
+                            <h2>Surf</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="height: 500px;">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/01/02/17/17/surfing-1947376_1280.jpg" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Surf</h5>
+                    <p class="card-text">O surfe ou surf é um esporte feito na superfície (seu nome provém da palavra inglesa “surface”) da água..</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 margin-top-responsivo2">
+                <div class="card" style="height: 500px;">
+                    <img class="card-img-top" src="https://media.istockphoto.com/id/1142683585/pt/vetorial/surfboard-custom-design.webp?s=2048x2048&w=is&k=20&c=uCKewVVSpu6UpuAem2NoozZ_33c11H4LoMHX5s5R6xY=" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Surf</h5>
+                    <p class="card-text">O surfe ou surf é um esporte feito na superfície (seu nome provém da palavra inglesa “surface”) da água.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 margin-top-responsivo">
+                <div class="card" style="height: 500px;">
+                    <img class="card-img-top" src="https://media.istockphoto.com/id/1401625742/pt/foto/surfboards-on-sandy-beach-in-vietnam.webp?s=2048x2048&w=is&k=20&c=C_q-AzHrvKpjoBLFIY_ROWE1jSgVI0wIAdK2PQV96kg=" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Surf</h5>
+                    <p class="card-text">O surfe ou surf é um esporte feito na superfície (seu nome provém da palavra inglesa “surface”) da água.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <Script src="./Lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></Script>
+    </body>
+    </html>
